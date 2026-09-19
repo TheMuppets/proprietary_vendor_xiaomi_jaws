@@ -9,6 +9,31 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jaws/proprietary/product/etc/permissions/nrdp.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/nrdp.xml \
     vendor/xiaomi/jaws/proprietary/product/etc/sysconfig/netflix.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/netflix.xml \
     vendor/xiaomi/jaws/proprietary/recovery/root/system/etc/mesondisplay.cfg:$(TARGET_COPY_OUT_RECOVERY)/root/system/etc/mesondisplay.cfg \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_00_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_00_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_0e_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_0e_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_0f_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_0f_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_10_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_10_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_12_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_12_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_13_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_13_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_14_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_14_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_15_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_15_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_17_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_17_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_18_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_18_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_19_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_19_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_20_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_20_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_21_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_21_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_23_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_23_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_24_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_24_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_30_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_30_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_31_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_31_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_32_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_32_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_33_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_33_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_34_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_34_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_35_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_35_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a1_23_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a1_23_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a1_25_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a1_25_Update.bin \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/bt_rc_name.conf:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/bt_rc_name.conf \
     vendor/xiaomi/jaws/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-xiaomi.rc \
     vendor/xiaomi/jaws/proprietary/vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc \
     vendor/xiaomi/jaws/proprietary/vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.amlogic.rc \
