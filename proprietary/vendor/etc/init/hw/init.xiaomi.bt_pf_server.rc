@@ -1,0 +1,16 @@
+service bt_platform_server /vendor/bin/bt_platform_server
+    class main
+    capabilities SYS_MODULE
+    user bluetooth
+    group bluetooth
+    oneshot
+
+on property:vendor.xiaomi.bt_driver.status=ok
+    chown bluetooth system /sys/class/stpbtfwlog/stpbtfwlog/rclist
+    chown bluetooth system /sys/class/stpbtfwlog/stpbtfwlog/beacon_pdu
+    #for 7663
+    chown bluetooth system /sys/class/BT_chrdev/stpbt/rclist
+    chown bluetooth system /sys/class/BT_chrdev/stpbt/beacon_pdu
+
+
+#on property:vendor.xiaomi.bt_driver.status=unloaded

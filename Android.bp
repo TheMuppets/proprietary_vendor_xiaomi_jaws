@@ -9,6 +9,37 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
+    name: "android.hardware.bluetooth@1.0-impl-xiaomiex",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/android.hardware.bluetooth@1.0-impl-xiaomiex.so",
+            ],
+            shared_libs: [
+                "android.hardware.bluetooth@1.0",
+                "libbase",
+                "libcutils",
+                "libhardware",
+                "libhidlbase",
+                "liblog",
+                "libutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "lib_android_keymaster_akeymint_utils",
     owner: "xiaomi",
     strip: {
@@ -164,6 +195,59 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libbluetooth_mtk_mi",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libbluetooth_mtk_mi.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libbt-vendor-mtk",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libbt-vendor-mtk.so",
+            ],
+            shared_libs: [
+                "liblog",
+                "libbluetooth_mtk_mi",
+                "libcutils",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "liboemcrypto",
     owner: "xiaomi",
     strip: {
@@ -211,6 +295,36 @@ cc_prebuilt_library_shared {
                 "libz",
                 "libteec",
                 "libmediahal_resman",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libwifi-hal-default",
+    owner: "xiaomi",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libwifi-hal-default.so",
+            ],
+            shared_libs: [
+                "libnetutils",
+                "libnl",
+                "liblog",
+                "libcutils",
+                "libutils",
+                "libwpa_client",
                 "libc++",
                 "libc",
                 "libm",
@@ -287,6 +401,67 @@ prebuilt_etc_xml {
     src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service.amlogic.xml",
     filename_from_src: true,
     sub_dir: "vintf/manifest",
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "bt_platform_server",
+    owner: "xiaomi",
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/bin/bt_platform_server",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libutils",
+                "libbase",
+                "liblog",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_binary {
+    name: "android.hardware.bluetooth@1.1-service-xiaomi",
+    owner: "xiaomi",
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-xiaomi",
+            ],
+            shared_libs: [
+                "android.hardware.bluetooth@1.1",
+                "liblog",
+                "libcutils",
+                "libbase",
+                "libutils",
+                "libhardware",
+                "libhidlbase",
+                "android.hardware.bluetooth@1.0-impl-xiaomiex",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    strip: {
+        none: true,
+    },
+    prefer: true,
+    relative_install_path: "hw",
     soc_specific: true,
 }
 
