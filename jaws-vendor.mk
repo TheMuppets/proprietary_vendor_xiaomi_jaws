@@ -44,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/EEPROM_MT7663.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/EEPROM_MT7663.bin \
     vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/TxPwrLimit_MT76x3.dat:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/TxPwrLimit_MT76x3.dat \
     vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/WIFI_RAM_CODE_MT7663.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/WIFI_RAM_CODE_MT7663.bin \
-    vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/aucpu_fw.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/aucpu_fw.bin \
     vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/bt_7663.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/bt_7663.cfg \
     vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/mt7663_patch_e1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/mt7663_patch_e1_hdr.bin \
     vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/mt7663_patch_e2_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/mt7663_patch_e2_hdr.bin \
