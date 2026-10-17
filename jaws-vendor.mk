@@ -75,8 +75,6 @@ PRODUCT_PACKAGES += \
     liboemcrypto \
     libsecmem \
     libwifi-hal-default \
-    libHwAudio_dcvdec \
-    libHwAudio_dtshd \
     android.hardware.oemlock@1.0-service.droidlogic.xml \
     android.hardware.security.keymint-service.amlogic.xml \
     bt_platform_server \
