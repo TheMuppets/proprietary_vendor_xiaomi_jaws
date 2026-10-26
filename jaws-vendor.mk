@@ -8,6 +8,9 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/jaws/proprietary/product/etc/permissions/nrdp.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/nrdp.xml \
     vendor/xiaomi/jaws/proprietary/product/etc/sysconfig/netflix.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/netflix.xml \
+    vendor/xiaomi/jaws/proprietary/recovery/root/lib/firmware/bt_7663.cfg:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/bt_7663.cfg \
+    vendor/xiaomi/jaws/proprietary/recovery/root/lib/firmware/mt7663_patch_e1_hdr.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/mt7663_patch_e1_hdr.bin \
+    vendor/xiaomi/jaws/proprietary/recovery/root/lib/firmware/mt7663_patch_e2_hdr.bin:$(TARGET_COPY_OUT_RECOVERY)/root/lib/firmware/mt7663_patch_e2_hdr.bin \
     vendor/xiaomi/jaws/proprietary/recovery/root/system/etc/mesondisplay.cfg:$(TARGET_COPY_OUT_RECOVERY)/root/system/etc/mesondisplay.cfg \
     vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_00_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_00_Update.bin \
     vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_0e_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a0_0e_Update.bin \
