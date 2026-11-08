@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a1_25_Update.bin:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/Vendor_2717_Product_32b9_Attribute_a1_25_Update.bin \
     vendor/xiaomi/jaws/proprietary/vendor/etc/bluetooth/bt_rc_name.conf:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth/bt_rc_name.conf \
     vendor/xiaomi/jaws/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-xiaomi.rc \
+    vendor/xiaomi/jaws/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.playready.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.playready.rc \
     vendor/xiaomi/jaws/proprietary/vendor/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.oemlock@1.0-service.droidlogic.rc \
     vendor/xiaomi/jaws/proprietary/vendor/etc/init/android.hardware.security.keymint-service.amlogic.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.security.keymint-service.amlogic.rc \
     vendor/xiaomi/jaws/proprietary/vendor/etc/init/hw/init.xiaomi.bt_pf_server.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.xiaomi.bt_pf_server.rc \
@@ -76,13 +77,17 @@ PRODUCT_PACKAGES += \
     libbluetooth_mtk_mi \
     libbt-vendor-mtk \
     liboemcrypto \
+    libplayready \
+    libplayreadymediadrmplugin \
     libsecmem \
     libwifi-hal-default \
     libHwAudio_dcvdec \
     libHwAudio_dtshd \
     android.hardware.oemlock@1.0-service.droidlogic.xml \
     android.hardware.security.keymint-service.amlogic.xml \
+    manifest_android.hardware.drm@1.4-service.playready.xml \
     bt_platform_server \
     android.hardware.bluetooth@1.1-service-xiaomi \
+    android.hardware.drm@1.4-service.playready \
     android.hardware.oemlock@1.0-service.droidlogic \
     android.hardware.security.keymint-service.amlogic
