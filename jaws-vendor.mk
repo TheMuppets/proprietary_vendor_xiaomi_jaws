@@ -51,8 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/bt_7663.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/bt_7663.cfg \
     vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/mt7663_patch_e1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/mt7663_patch_e1_hdr.bin \
     vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/mt7663_patch_e2_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/mt7663_patch_e2_hdr.bin \
-    vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/regulatory.db:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/regulatory.db \
-    vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/regulatory.db.p7s:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/regulatory.db.p7s \
     vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/video/video_ucode.bin:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/video/video_ucode.bin \
     vendor/xiaomi/jaws/proprietary/vendor/lib/firmware/wifi_mt7663.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/firmware/wifi_mt7663.cfg \
     vendor/xiaomi/jaws/proprietary/vendor/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta:$(TARGET_COPY_OUT_VENDOR)/lib/teetz/00d1ca22-1764-4e35-90aa-5b8c12630764.ta \
